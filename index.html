@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio Web de Hamlet Poche, desarrollador frontend con experiencia en tecnologías modernas y diseño responsive en la industria tech.">
+    <meta name="keywords" content="portafolio, desarrollador frontend, tecnología, proyectos tech, experiencia profesional, diseño web, bootstrap, javascript">
+    <meta name="author" content="Hamlet Poche">
+    <meta name="robots" content="index, follow">
+    <title>Hamlet Poche | Portafolio Web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú fijo -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand animated-name" href="#">Hamlet Poche</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-laptop-code"></i> Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-briefcase"></i> Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contacto</a></li>
+                    <li class="nav-item">
+                        <button id="darkModeToggle" class="btn btn-outline-light"><i class="fas fa-moon"></i> Modo Oscuro</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Homepage -->
+    <section id="home" class="section gradient-bg">
+        <div class="container text-center">
+            <img src="https://cdn3.iconfinder.com/data/icons/data-science-set-01-2/65/20-512.png" alt="Foto de Hamlet Poche" class="rounded-circle img-thumbnail developer-photo" loading="lazy">
+            <h1 class="mt-3">Hola, soy Hamlet Poche</h1>
+            <p class="lead">Desarrollador Frontend apasionado por la tecnología y el diseño web.</p>
+            <a href="#projects" class="btn btn-primary mt-3"><i class="fas fa-code"></i> Ver Proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center"><i class="fas fa-user"></i> Sobre Mí</h2>
+            <p>Soy un desarrollador frontend con 5 años de experiencia en la creación de interfaces modernas y accesibles. Me especializo en HTML5, CSS3, JavaScript y frameworks como Bootstrap. Me apasiona resolver problemas y aprender nuevas tecnologías.</p>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="section gradient-bg">
+        <div class="container">
+            <h2 class="text-center"><i class="fas fa-laptop-code"></i> Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg" class="card-img-top img-thumbnail" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">App de Gestión</h5>
+                            <p class="card-text">Una aplicación web para gestionar tareas con React y Node.js.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg" class="card-img-top img-thumbnail" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing Page</h5>
+                            <p class="card-text">Página de aterrizaje optimizada para conversiones con Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s" class="card-img-top img-thumbnail" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce</h5>
+                            <p class="card-text">Tienda online con carrito de compras en Vanilla JS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="text-center"><i class="fas fa-briefcase"></i> Experiencia</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card experience-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollador Frontend - TechCorp</h5>
+                            <p class="card-text">2020 - Presente<br>Diseño y desarrollo de interfaces para aplicaciones empresariales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card experience-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Freelancer - Proyectos Web</h5>
+                            <p class="card-text">2018 - 2020<br>Creación de sitios web para pequeñas empresas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card experience-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasante - StartupX</h5>
+                            <p class="card-text">2017 - 2018<br>Apoyo en desarrollo frontend y testing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section gradient-bg">
+        <div class="container text-center">
+            <h2><i class="fas fa-envelope"></i> Contacto</h2>
+            <p>¡Conéctate conmigo en redes sociales o envíame un correo!</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+            <p>Email: hamlet.poche@example.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>© 2025 Hamlet Poche. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
